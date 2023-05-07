@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+.wrapper{
+    background: url(./assets/bgImage.svg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    /* height: -webkit-fill-available; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 0.725rem;
+    overflow: hidden;
+}
+.skipBtn{
+    position: absolute;
+    top: 3%;
+    left: 82%;
+    color: black;
+}
+.head{
+    margin-top: 5rem;
+    text-align: center;
+}
+.heading{
+    font-size: 36px;
+}
+.sub-heading{
+    font-size: 24px;
+    margin-top: 1rem;
+    color: #8A8888;
+}
+.login-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs{
+    background-color: #FFFCFC;
+    border-radius: 12px;
+    width: 310px;
+    height: 55px;
+    border: 0.5px solid rgba(128, 128, 128, 0.4);
+    font-size: 18px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.recoveryPasswdLink{
+    position: absolute;
+    top: 51%;
+    left: 57%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+}
+.signin{
+    margin-top: 4rem;
+    background-color: #C89E85;
+    color: white;
+    width: 310px;
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    font-size: 24px;
+}
+.signin:active{
+    background-color: #9f745d;
+}
+.other-options{
+    position: relative;
+    margin-top: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.linkBtns{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.googleBtn{
+    width: 90px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebookBtn{
+    width: 90px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerNow{
+    font-size: 20px;
+    color: #FF7D05;
+}
