@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container{
+    width: 100vw;
+    /* background-color: aqua; */
+}
+
+#container{
+    margin: auto;
+    width:378px;
+    display: flex;
+    /* width: 30%; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: -webkit-fill-available;
+    /* overflow: hidden; */
+   
+}
+
+.background{
+    aspect-ratio: 17/9;
+    /* display: block; */
+    margin: auto;
+    position: relative;
+    height: -webkit-fill-available;
+}
+
+#background_1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 370px;
+    height: 361px;
+    /* left: 850px; */
+    /* top: 452px; */
+    bottom: -80px;
+    background: rgba(255, 186, 91, 0.85);
+    border-radius: 50px 50px 0px 0px;
+}
+
+.front_img{
+    position: absolute;
+    bottom: 0;
+}
+
+.tagline{
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    top: 35px;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('Gilroy-Medium.woff2') format('woff2'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+#left_Q{
+    position: absolute;
+    font-size: 6rem;
+    font-family: 'Gilroy';
+    color: #ffba5b;
+    top: 160px;
+    left: 110px;
+    animation: slideleft 3s ease-in-out infinite ;
+}
+
+#middle_txt{
+    position: absolute;
+    font-size: 4rem;
+    font-family: 'Gilroy';
+    color: #ffba5b;
+    top: 193px;
+    left: 115px;
+    animation: scale 3s ease-in-out infinite;
+}
+
+#right_Q{
+    position: absolute;
+    font-size: 6rem;
+    font-family: 'Gilroy';
+    color: #ffba5b;
+    top: 160px;
+    right: 110px;
+    animation: slideright 3s ease-in-out infinite ;
+    
+}
+
+#sub_container{
+    position: relative;
+    width:378px;
+
+}
+
+@keyframes slideleft 
+{
+    0%
+    {
+       transform: translateX(0) ;
+    }
+    50%
+    {
+       transform: translateX(-80px);
+    }
+
+    100%
+    {
+        transform: translateX(-69px);
+    }
+}
+
+@keyframes scale 
+{
+    0%
+    {
+        transform: scale(0);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideright 
+{
+    0%
+    {
+       transform: translateX(0) ;
+    }
+    50%
+    {
+       transform: translateX(+80px);
+    }
+
+    100%
+    {
+        transform: translateX(+68px);
+    }
+}
