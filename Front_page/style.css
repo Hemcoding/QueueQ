@@ -79,6 +79,7 @@
     top: 160px;
     left: 110px;
     animation: slideleft 3s ease-in-out infinite ;
+    z-index: 1;
 }
 
 #middle_txt{
@@ -89,6 +90,8 @@
     top: 193px;
     left: 115px;
     animation: scale 3s ease-in-out infinite;
+    /* display: none; */
+    z-index: 0;
 }
 
 #right_Q{
@@ -99,7 +102,7 @@
     top: 160px;
     right: 110px;
     animation: slideright 3s ease-in-out infinite ;
-    
+    z-index: 1;
 }
 
 #sub_container{
@@ -129,11 +132,11 @@
 {
     0%
     {
-        transform: scale(0);
+       color: #ffffff00; 
     }
     100%
     {
-        transform: scale(1);
+        color: #ffba5b;
     }
 }
 
