@@ -1,0 +1,483 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.background-1{
+    position: relative;
+width: 370px;
+height: 812px;
+overflow:hidden;
+
+background: linear-gradient(180deg, #FBEDE5 0%, rgba(211, 161, 132, 0) 100%);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/* border-radius: 50px; */
+}
+.inner{
+    /* Rectangle 44 */
+
+
+position: absolute;
+width: 300px;
+height: 510px;
+left: 35px;
+top: 90px;
+
+background: #F6F6F6;
+border-radius: 15px;
+}
+.greentick{
+/* right 1 */
+
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 155px;
+top: 63px;
+/* background: url(right.png); */
+background-blend-mode: darken;
+}
+
+.thank_you{
+    /* Thank you! */
+
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 137px;
+top: 126px;
+white-space: nowrap;
+font-family: 'DM Sans', sans-serif;
+
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+.booked_message{
+    /* you booked token successfully */
+
+
+position: absolute;
+width: 237px;
+height: 21px;
+left: 58px;
+top: 155px;
+white-space: nowrap;
+font-family: 'DM Sans', sans-serif;
+
+font-style: normal;
+font-weight: 100;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.right_elipse{
+   /* Ellipse 19 */
+
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 321px;
+top: 193px;
+border-radius: 50%;
+background: #F4E2D9;
+
+}
+.line-2{
+    /* Line 2 */
+
+
+position: absolute;
+width: 272px;
+height: 0px;
+left: 49px;
+top: 204px;
+
+mix-blend-mode: overlay;
+border: 1px solid #000000;
+
+}
+
+.left_elipse{
+    /* Ellipse 20 */
+
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 27px;
+top: 191px;
+border-radius: 50%;
+background: #F6E6DE;
+}
+
+.date{
+    /* Date */
+
+
+position: absolute;
+width: 36px;
+height: 40px;
+left: 65px;
+top: 215px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+
+color: #000000;
+
+opacity: 0.35;
+}
+
+.time{
+    /* Time */
+
+
+position: absolute;
+width: 39px;
+height: 20px;
+left: 204px;
+top: 215px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.35;
+}
+
+.rel-date{
+    /* 14 Aug 2023 */
+
+
+position: absolute;
+width: 87px;
+height: 18px;
+left: 65px;
+top: 235px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.rel-time{
+    /* 10am - 11am */
+
+
+position: absolute;
+width: 90px;
+height: 18px;
+left: 207px;
+top: 237px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.location{
+    /* Location */
+
+
+position: absolute;
+width: 67px;
+height: 20px;
+left: 65px;
+top: 287px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.35;
+}
+.rel-location{
+    /* Restaurant BMW, Abc Street,... */
+
+
+position: absolute;
+width: 208px;
+height: 18px;
+left: 65px;
+top: 313px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.g-map{
+    /* G-Map’s Link - */
+
+
+position: absolute;
+width: 263px;
+height: 15px;
+left: 65px;
+top: 337px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+}
+
+.g-link{
+    /* /ht.afs+bmw+abc */
+
+
+position: absolute;
+width: 179px;
+height: 16px;
+left: 158px;
+top: 336px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 16px;
+
+color: #0B23FF;
+
+}
+.table{
+    /* Table no. */
+
+position: absolute;
+width: 70px;
+height: 20px;
+left: 65px;
+top: 381px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.35;
+}
+
+.table-no{
+    /* T-23 */
+
+
+position: absolute;
+width: 31px;
+height: 18px;
+left: 65px;
+top: 406px;
+white-space: nowrap;
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.amount{
+    /* Amount */
+
+
+position: absolute;
+width: 61px;
+height: 20px;
+left: 65px;
+top: 464px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.35;
+}
+
+.amount2{
+    /* 100/- (Rupees One Hundred Only) */
+
+
+position: absolute;
+width: 283px;
+height: 40px;
+left: 65px;
+top: 486px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 20px;
+/* or 105% */
+
+
+color: #000000;
+
+}
+
+.refund{
+    /* *Non Refundable */
+
+
+position: absolute;
+width: 148px;
+height: 23px;
+left: 35px;
+top: 618px;
+white-space: nowrap;
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 23px;
+
+color: #C8B3B3;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+width: 155px;
+height: 41px;
+left: 108px;
+top: 664px;
+
+background: #D0AD98;
+border-radius: 20px;
+border: none;
+}
+
+.button-text{
+    /* Print/Save */
+
+
+position: absolute;
+width: 95px;
+height: 23px;
+left: 138px;
+top: 673px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #FEFEFE;
+}
+
+.btn-2{
+  /* Rectangle 45 */
+
+
+position: absolute;
+width: 190px;
+height: 75px;
+left: 90px;
+top: 723px;
+border: none;
+background: #D0AD98;
+border-radius: 50px;
+}
+.cancel-btn-text{
+    /* CANCEL APPOINTMENT */
+
+
+position: absolute;
+text-align: center;
+width: 146px;
+height: 46px;
+left: 112px;
+top: 737px;
+
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #FEFEFE;
+
+}
