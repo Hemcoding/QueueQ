@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Slot</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="slotBookingPage.css">
+
+    <!-- Not Required -->
+    <!-- <link rel="stylesheet" href="css/calenderStyle.css"> -->
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/rome.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <!-- CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="head">
+            <a href="#" class="logo">Q</a>
+            <i class="fa-solid fa-bars hamburger"></i>
+        </header>
+        <div class="main-section">
+            <h2 class="heading">Hurry Up!</h2>
+            <h3 class="sub-heading">Book Now Your Appointment</h3>
+
+            <!-- Calender -->
+            <div class="content">
+
+                <div class="container text-left">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 text-center">
+                            <!-- <h2 class="mb-5 text-center">Calendar #6 (Inline)</h2> -->
+                            <form action="#" class="row">
+                                <div class="col-md-12">
+                                    <div id="inline_cal"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="guest-div">
+                <p class="guest-txt">Guests</p>
+                <input type="number" min="1" name="dropdown" id="guestDropdown"
+                    oninput="this.value = Math.max(1, Math.abs(this.value))">
+            </div>
+
+            <div class="time-slot-box">
+                <p>Time:</p>
+                <div class="time-slots">
+                    <input type="radio" name="first" class="time">
+                    <label for="first" class="time-box">12am to 1pm</label>
+
+                    <input type="radio" name="second" class="time">
+                    <label for="second" class="time-box">1pm to 2pm</label>
+
+                    <input type="radio" name="third" class="time">
+                    <label for="third" class="time-box">2pm to 3pm</label>
+
+                    <input type="radio" name="fourth" class="time">
+                    <label for="fourth" class="time-box">8pm to 9pm</label>
+
+                    <input type="radio" name="fifth" class="time">
+                    <label for="fifth" class="time-box">9pm to 10pm</label>
+
+                    <!-- <div class="time">12am to 1pm</div>
+                    <div class="time">1pm to 2pm</div>
+                    <div class="time">2pm to 3pm</div>
+                    <div class="time">8pm to 9pm</div>
+                    <div class="time">9pm to 10pm</div> -->
+
+                </div>
+
+                <div class="btnDiv">
+                    <button type="submit" class="bookNowBtn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Calender Scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/rome.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- JS Code Added My Mantra Gor -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
