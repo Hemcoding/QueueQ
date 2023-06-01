@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueueQ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/535be2d4fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div id="container">
+        <div id="background">
+            <div id="heading">
+                <img src="images/Arrow 2.svg" alt="" srcset="">
+                <p id="header_txt">Payment method</p>
+                <p id="skip">Skip</p>
+            </div>
+            <div class="card_flexbox">
+                <div class="card_add">➕</div>
+                <section class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="card swiper-slide">
+                            <img class="swiper-img" src="images/Frame 1.svg" alt="" srcset="">
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <img class="swiper-img" src="images/Property 1=Frame 4.svg" alt="" srcset="">
+                        </div>
+
+                </div>
+              </section>
+            </div>
+            
+              <div id="background_1">
+                <div id="invoice_box">
+                    <div id="invoice">
+                        <h4 id="invoice_heading">Invoice details</h4>
+                        <div id="line">------------------------------</div>
+                        <div id="invoice-details">
+                            <div class="details-flex">
+                                <span class="details-span">Venue</span>
+                                <span class="details-span">Moonlight Restaurant</span>
+                            </div>
+                            <div class="details-flex">
+                                <span class="details-span">Date</span>
+                                <span class="details-span">25/05/2023</span>
+                            </div>
+                            <div class="details-flex">
+                                <span class="details-span">Time</span>
+                                <span class="details-span">09:00</span>
+                            </div>
+                            <div class="details-flex">
+                                <span class="details-span">No of Guest</span>
+                                <span class="details-span">05</span>
+                            </div>
+                            <div class="details-flex">
+                                <span class="details-span">Due Amount</span>
+                                <span class="details-span">&#8377 100</span>
+                            </div>
+                            
+                            <button id="invoice_pay_btn" onclick="hide()">Pay Now</button>
+                        </div>
+                    </div>
+                </div>
+                <p id="option_txt">Choose payment option</p>
+                <div id="payment_flexbox">
+                    <div class="payment_methods">
+                        <img class="img" src="images/Credit_or_Debit_Card_Flat_Icon_Vector 1.svg" alt="" srcset="">
+                        <div>
+                            <h3 class="option_name">Cards</h3>
+                            <p class="option_desc">Visa, MasterCard, RuPay & More</p>
+                        </div>
+                    </div>
+                    <div class="payment_methods"> 
+                        <img class="img" src="images/netbanking 1.svg" alt="" srcset="">
+                        <div>
+                            <h3 class="option_name">Netbanking</h3>
+                            <p class="option_desc">All Indian Banks</p>
+                        </div></div>
+                    <div class="payment_methods"> 
+                        <img class="img" src="images/wallet 1.svg" alt="" srcset="">
+                        <div>
+                            <h3 class="option_name">Wallet</h3>
+                            <p class="option_desc">Paytm & More</p>
+                        </div></div>
+                    <div class="payment_methods"> 
+                        <img class="img" src="images/upi-id-icon(1) 1.svg" alt="" srcset="">
+                        <div>
+                            <h3 class="option_name">UPI/QR</h3>
+                            <p class="option_desc">Instant Payment Using UPI Apps</p>
+                        </div></div>
+                </div>
+                <div id="payment_footer">
+                    <button id="pay_btn">Pay<img id="pay_arrow" src="images/Arrow 3.svg" alt="" srcset=""></button>
+                    <div>
+                        <span id="rupees">&#8377 100</span>
+                        <p id="details" onclick="show()">View details</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <img src="images/Rectangle 35.jpg" alt="" srcset=""> -->
+            
+        </div>
+
+    </div>
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="payment.js"></script>
+</body>
+</html>
