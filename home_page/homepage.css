@@ -1,29 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 #wrapper{
 
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(180deg, #FBEDE5 0%, rgba(211, 161, 132, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   
 }
 .section{
     /*  Home page */
 
 position: relative;
+/* width: 100vw; */
 width: 370px;
 height: 812px;
-
-
-background: linear-gradient(180deg, #FBEDE5 0%, rgba(211, 161, 132, 0) 100%);
+align-items: center;
+justify-content: center;
+/* background: 100vh; */
+background: 100vw;
+/* background: linear-gradient(180deg, #FBEDE5 0%, rgba(211, 161, 132, 0) 100%);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-border-radius:0px 0px 20px 20px;
+border-radius:0px 0px 20px 20px; */
+overflow-x:hidden;
+overflow-y: hidden;
+
 }
 .navbar{
     /* MenuBar */
     position: absolute;
-    width: 370px;
+    align-items: center ;
+    justify-content: center;
+    width: 100vw;
     height: 70px;
     left: 0px;
     top: 0px;
-    
+    overflow-x: hidden;
+    overflow-y: hidden;
     background: #C89E85;
     border-radius: 0px 0px 20px 20px;
 }
@@ -37,7 +54,7 @@ height: 24px;
 left: 185px;
 top: 22px;
 
-font-family: 'Gayathri';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -53,11 +70,13 @@ color: #000000;
     
     
     position: absolute;
-    width: 190px;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
     height: 32px;
-    left: 130px;
+    left: 530px;
     top: 20px;
-    
+    z-index: 15;
     background: #F9FEFF;
     border-radius: 12px;
     
@@ -89,7 +108,7 @@ height: 37px;
 left: 32px;
 top: 14px;
 
-font-family: 'Gayathri';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 45px;
@@ -107,7 +126,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 position: absolute;
 width: 24px;
 height: 24px;
-left: 326px;
+right: 326px;
 top: 24px;
 
 background: url(location-pointer.png);
@@ -159,7 +178,7 @@ height: 24px;
 left: 65px;
 top: 282px;
 
-font-family: 'Gayathri';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -184,6 +203,7 @@ background: #F9FEFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), ;
 border-radius: 23px;
 background-repeat: no-repeat no-repeat;
+background: 100vw;
 }
 
 
@@ -209,7 +229,7 @@ height: 24px;
 left: 252px;
 top: 284px;
 
-font-family: 'Gayathri';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -231,6 +251,7 @@ background: #F9FEFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), ;
 border-radius: 23px;
 background-blend-mode:exclusion;
+background: 100vw;
 }
 
 .parlour{
@@ -250,12 +271,12 @@ top: 357px;
 
 
 position: absolute;
-width: 134px;
+width: 150px;
 height: 22px;
 left: 40px;
 top: 489px;
 
-font-family: 'Gayathri';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -277,6 +298,7 @@ z-index: -3;
 background: #F9FEFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),;
 border-radius: 23px;
+background: 100vw;
 }
 
 .service-center{
@@ -298,12 +320,12 @@ top: 356px;
 
 
 position: absolute;
-width: 132px;
+width: 150px;
 height: 24px;
 left: 216px;
 top: 487px;
 
-font-family: 'Gayathri';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -326,6 +348,7 @@ z-index: -3;
 background: #F9FEFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),;
 border-radius: 23px;
+background: 100vw;
 }
 
 .restaurant{
@@ -346,12 +369,12 @@ top: 555px;
 
 
 position: absolute;
-width: 99px;
+width: 150px;
 height: 24px;
 left: 56px;
 top: 691px;
 
-font-family: 'Gayathri';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -373,6 +396,7 @@ z-index: -3;
 background: #F9FEFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),;
 border-radius: 23px;
+background: 100vw;
 }
 
 .legal-adviser{
@@ -392,12 +416,12 @@ top: 555px;
 
 
 position: absolute;
-width: 118px;
+width: 150px;
 height: 24px;
 left: 223px;
 top: 691px;
 
-font-family: 'Gayathri';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -421,4 +445,5 @@ z-index: -3;
 background: #F9FEFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),;
 border-radius: 23px;
+background: 100vw;
 }
