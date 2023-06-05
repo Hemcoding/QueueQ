@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+#wrapper{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #FBEDE5 0%, rgba(211, 161, 132, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   
+}
+.section{
+    /*  Home page */
+
+position: relative;
+/* width: 100vw; */
+width: 370px;
+height: 812px;
+align-items: center;
+justify-content: center;
+/* background: 100vh; */
+background: 100vw;
+/* background: linear-gradient(180deg, #FBEDE5 0%, rgba(211, 161, 132, 0) 100%);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius:0px 0px 20px 20px; */
+overflow-x:hidden;
+overflow-y: hidden;
+
+}
+.navbar{
+    /* MenuBar */
+    position: absolute;
+    align-items: center ;
+    justify-content: center;
+    width: 100vw;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: #C89E85;
+    border-radius: 0px 0px 20px 20px;
+}
+.city{
+    /* Bhuj */
+
+
+position: absolute;
+width: 40px;
+height: 24px;
+left: 185px;
+top: 22px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+#city{
+    
+
+        /* Rectangle 20 */
+    
+    
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 32px;
+    left: 530px;
+    top: 20px;
+    z-index: 15;
+    background: #F9FEFF;
+    border-radius: 12px;
+    
+}
+
+.citynames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+.citynames li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.Q{
+    /* Q */
+
+
+position: absolute;
+width: 34px;
+height: 37px;
+left: 32px;
+top: 14px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+
+color: #FFBA5B;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.location{
+    /* location-pointer 1 */
+
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 326px;
+top: 24px;
+
+background: url(location-pointer.png);
+mix-blend-mode: normal;
+}
+
+.Rectangle{
+    /* Rectangle 20 */
+
+
+position: absolute;
+width: 190px;
+height: 32px;
+left: 130px;
+top: 20px;
+
+background: #F9FEFF;
+border-radius: 12px;
+}
+
+.b-arrow{
+    /* COCO/Bold/Arrow - Bottom */
+    position: absolute;
+left: 78.38%;
+right: 15.14%;
+top: 32.96%;
+bottom: 94.09%;
+
+}
+
+.hospital{
+    /* hospital */
+
+
+position: absolute;
+width: 134px;
+height: 116px;
+left: 29px;
+top: 143px;
+}
+
+#hospital{
+    /* Hospital */
+
+
+position: absolute;
+width: 69px;
+height: 24px;
+left: 65px;
+top: 282px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+
+.icon-background-1{
+
+/* Rectangle 14 */
+
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 21px;
+top: 126px;
+z-index: -3;
+background: #F9FEFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), ;
+border-radius: 23px;
+background-repeat: no-repeat no-repeat;
+background: 100vw;
+}
+
+
+.saloon{
+    /* hair_cutting_saloon */
+
+
+position: absolute;
+width: 134px;
+height: 116px;
+left: 208px;
+top: 143px;
+
+
+}
+#saloon{
+    /* Saloon */
+
+
+position: absolute;
+width: 60px;
+height: 24px;
+left: 252px;
+top: 284px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.icon-background-2{
+    /* Rectangle 16 */
+
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 200px;
+top: 126px;
+z-index: -3;
+background: #F9FEFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), ;
+border-radius: 23px;
+background-blend-mode:exclusion;
+background: 100vw;
+}
+
+.parlour{
+    /* beauty_parlour */
+
+
+position: absolute;
+width: 134px;
+height: 116px;
+left: 35px;
+top: 357px;
+
+}
+
+#beauty{
+    /* Beauty Parlour */
+
+
+position: absolute;
+width: 150px;
+height: 22px;
+left: 40px;
+top: 489px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.icon-background-3{
+    /* Rectangle 18 */
+
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 28px;
+top: 331px;
+z-index: -3;
+background: #F9FEFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),;
+border-radius: 23px;
+background: 100vw;
+}
+
+.service-center{
+
+    /* Frame */
+
+
+position: absolute;
+width: 134px;
+height: 116px;
+left: 204px;
+top: 356px;
+
+}
+
+#service{
+
+    /* Service Centre */
+
+
+position: absolute;
+width: 150px;
+height: 24px;
+left: 216px;
+top: 487px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+
+.icon-background-4{
+    /* Rectangle 17 */
+
+
+position: absolute;
+width: 150px;
+height: 150px;
+right: 20px;
+top: 331px;
+z-index: -3;
+background: #F9FEFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),;
+border-radius: 23px;
+background: 100vw;
+}
+
+.restaurant{
+    /* undraw_special_event_-4-aj8 1 */
+
+
+position: absolute;
+width: 134px;
+height: 113px;
+left: 37px;
+top: 555px;
+
+}
+
+#restaurant{
+
+    /* Restaurant */
+
+
+position: absolute;
+width: 150px;
+height: 24px;
+left: 56px;
+top: 691px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.icon-background-5{
+    /* Rectangle 15 */
+
+
+position: absolute;
+width: 150px;
+height: 150px;
+right: 192px;
+top: 537px;
+z-index: -3;
+background: #F9FEFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),;
+border-radius: 23px;
+background: 100vw;
+}
+
+.legal-adviser{
+    /* undraw_working_re_ddwy 1 */
+
+
+position: absolute;
+width: 134px;
+height: 113px;
+left: 208px;
+top: 555px;
+
+}
+#legal{
+
+    /* Legal Advisor */
+
+
+position: absolute;
+width: 150px;
+height: 24px;
+left: 223px;
+top: 691px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+
+.icon-background-6{
+
+    /* Rectangle 19 */
+
+
+position: absolute;
+width: 150px;
+height: 150px;
+right: 20px;
+top: 536px;
+z-index: -3;
+background: #F9FEFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),;
+border-radius: 23px;
+background: 100vw;
+}
