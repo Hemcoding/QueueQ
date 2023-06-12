@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'DM Sans', sans-serif;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* position: absolute; */
+    left: 495px;
+    bottom: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+.humburger{
+    background-image: url(./assets/Q.png);
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: #9f745d;
+}
+.container img{
+    margin: auto;
+    display: block;
+    /* height: 100vh; */
+    /* width: 100vw; */
+
+}
+
+.search{
+    padding: 3px;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 280px;
+    height: 30px;
+}
+.search-box{
+    padding-top:10%;
+}
+.venues{
+    /* position: relative; */
+    /* left: 30px; */
+    text-align: start;
+    /* margin: 5px; */
+    height: 100vh;
+    width: 100vw;
+}
+/* .search-box i{
+    position: relative;
+    left: 30px;
+} */
+.box1{
+    padding: 10%;
+}
+.box1{
+    height: 90px;
+    width: 300px;
+    background: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+.box2{
+    height: 90px;
+    width: 300px;
+    background-color: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px white solid;
+    
+}
+.box3{
+    height: 90px;
+    width: 300px;
+    background-color: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+.box4{
+    height: 90px;
+    width: 300px;
+    background-color: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+.box5{
+    height: 90px;
+    width: 300px;
+    background-color: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px  white solid;
+}
+.bgimage img{
+    width: 100vw;
+}

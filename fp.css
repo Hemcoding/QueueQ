@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-image: url(./assets/Front\ page.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimage img{
+    display: block;
+    margin: auto;
+    /* height: 100vh; */
+    width: 100vw;
+    position: absolute;
+ }
+.humburger{
+    background-color: #C89E85;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    border-radius: 10px;
+}
+.humburger i{
+    position: relative;
+    right: 10px;
+}
+.search-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-bottom: 35px; */
+}
+.search{
+    padding: 8px 60px;
+    border: 2px white;
+    border-radius: 15px;
+    margin-bottom: 4px;
+}
+.search-box i{
+    position: relative;
+    top: 25px;
+    right: 110px;
+}
+.box{
+    margin-top: 20px;
+    /* padding: 10px 10px; */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* overflow: hidden;  */
+    
+}
+.box1{
+    height: 80px;
+    width: 280px;
+    background: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px white solid;
+   
+}
+.box2{
+    height: 80px;
+    width: 280px;
+    background-color: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px white solid;
+    /* margin-top: 1%; */
+}
+.box3{
+    height: 80px;
+    width: 280px;
+    background-color: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+.box4{
+    height: 80px;
+    width: 280px;
+    background-color: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+.box5{
+    height: 80px;
+    width: 280px;
+    background-color: #FFFCFCCC;
+    border-radius: 10px;
+    border: 1px  white solid;
+}
+.venues{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-size: 12px;
+}
+b{
+    padding-top:10px ;
+}
