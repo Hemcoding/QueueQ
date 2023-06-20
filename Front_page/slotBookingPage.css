@@ -170,3 +170,6 @@ input[type=number] {
 .bookNowBtn:active{
     scale: 0.99;
 }
+.container{
+    margin: 0 auto;
+}
