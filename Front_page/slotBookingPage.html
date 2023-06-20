@@ -9,6 +9,7 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="slotBookingPage.css">
+    <link rel="stylesheet" href="hamburger.css">
 
     <!-- Not Required -->
     <!-- <link rel="stylesheet" href="css/calenderStyle.css"> -->
@@ -32,8 +33,9 @@
 <body>
     <div id="wrapper">
         <header class="head">
-            <img class="logo" src="../Front_page/icons/Q.svg" alt="" srcset="">
-            <i class="fa-solid fa-bars hamburger"></i>
+            <h2 class="logo">Q</h2>
+            <i class="fa-solid fa-bars" id="hamburger"></i>
+            <i class="fa-solid fa-xmark" id="close"></i>
         </header>
         <div class="main-section">
             <h2 class="heading">Hurry Up!</h2>
@@ -94,6 +96,17 @@
                 </div>
             </div>
         </div>
+
+        <div class="menu">
+            <a href="#">My account</a>
+            <a href="#">Bookings</a>
+            <a href="#">Browse service</a>
+            <a href="#">Notification</a>
+            <a href="#">Support</a>
+            <a href="#">Settings</a>
+            <a href="#">Log out</a>
+        </div>
+        <div class="overlay"></div>
     </div>
 
 
@@ -105,17 +118,12 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/rome.js"></script>
 
-
-    <!-- <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/rome.js"></script> -->
-
     <script src="./js/main.js"></script>
 
     <!-- JS Code Added My Mantra Gor -->
     <script src="./js/script.js"></script>
     <script src="./script.js"></script>
+    <script src="hamburger.js"></script>
 </body>
 
 </html>
